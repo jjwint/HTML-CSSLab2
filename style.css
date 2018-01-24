@@ -53,6 +53,11 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+	.container {
+		max-width: 1400px;
+		width: 90%;
+		margin: 0 auto;
+	}
 	#navContainer {
 		flex-direction: row;
 		justify-content: space-between;
@@ -68,6 +73,10 @@ a {
 		padding-bottom: 5px;
 		padding-right: 20px;
 		padding-left: 20px;
+	}
+
+	a {
+		margin
 	}
 
 	h1 {
@@ -124,38 +133,3 @@ a {
 		bottom: 300px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
